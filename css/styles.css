@@ -4,7 +4,7 @@
     --second-title-color: #303030;
     --first-btn-color: #ffffff;
     --second-btn-color: #2196F3;
-    --accent-color: #0400ff;
+    --accent-color: #2196F3;
   }
  
   body {
@@ -67,7 +67,7 @@ color: #757575;
 /*-------------- Герой------------*/
 .hero-section {
   background-color: #303030;
-}
+}button-list
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -89,6 +89,10 @@ text-align: center;
 letter-spacing: 0.06em;
 color: var(--first-btn-color);
 background-color: #303030;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: #2196F3;
 }
 .benefits-h3 {
   font-weight: 700;
