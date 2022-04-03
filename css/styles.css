@@ -223,3 +223,11 @@ color: var(--accent-text-color);
   letter-spacing: 0.03em;
   color: var(--primeri-text-color);
 }
+.uk {
+  color: rgb(0, 34, 255);
+}
+
+
+.in {
+  color: rgb(255, 251, 0);
+}
