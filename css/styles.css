@@ -230,4 +230,5 @@ color: var(--accent-text-color);
 
 .in {
   color: rgb(255, 251, 0);
+  margin-left:-3px;
 }
