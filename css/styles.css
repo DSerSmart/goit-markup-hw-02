@@ -31,6 +31,9 @@ body{
 .logo {
   text-decoration: none;
 }
+.current:visited {
+  color:var(--accent-text-color);
+}
 /*-------------- Шапка сайта------------*/
 .logo {
   font-family: 'Raleway';
