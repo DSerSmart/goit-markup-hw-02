@@ -22,6 +22,9 @@ body{
 .link {
   text-decoration: none;
 }
+  .link1 {
+    text-decoration: none;
+}
 .lin1 {
   list-style: none;
 }
@@ -94,12 +97,12 @@ color: #ffffff;
       text-align: center;
       letter-spacing: 0.06em;
       color: #ffffff;
-      background-color:var(--durk-background-color);
-      pointer
+      background-color:var(--accent-text-color);
+      cursor: pointer;
       }
       .hero-button:hover,
       .hero-button:focus {
-        background-color:var(--accent-text-color);
+        background-color:#188CE8;
       }
       /*-------------- Приимущества------------*/
       .team {
@@ -141,23 +144,15 @@ color: #ffffff;
   letter-spacing: 0.03em;
   color: var(--primeri-text-color);
 }
-.occupation-h2 {
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
 
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--title-text-color);
-}
-.team-h2 {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--title-text-color);
-}
 .team-h3 {
   font-weight: 500;
   font-size: 16px;
@@ -179,13 +174,16 @@ color: var(--title-text-color);
  background-color:#2F303A ;
 }
 .footer-adress {
+  font-family: 'Roboto';
+font-style: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
-.futer-contact{
-  font-weight: 400;
+.futer-contact {
+font-family: 'Roboto';
+font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -207,11 +205,13 @@ color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--accent-text-color);
+  color: var(--primeri-wite-color);
+  background-color: var(--accent-text-color);
   }
 .nav-button:hover,
 .nav-button:focus{
-color: var(--accent-text-color);
+  color: var(--primeri-wite-color);
+  background-color: var(--accent-text-color);
 }
 /*--------------Таблица картинок------------*/
 .img-button-h2 {
@@ -220,12 +220,14 @@ color: var(--accent-text-color);
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .img-button-p {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--primeri-text-color);
+  text-decoration: none;
 }
 .uk {
   color: rgb(0, 34, 255);
