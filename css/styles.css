@@ -6,6 +6,24 @@
   --secondary-background-color: #F5F4FA;
   --durk-background-color: #2F303A;
 }
+/*  box-sizing выравнивает элемент по ширине падинга и бордера */
+/* * { 
+  box-sizing: border-box;
+}*/
+/*  
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+}*/
 body{
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -36,6 +54,18 @@ body{
 }
 .current:visited {
   color:var(--accent-text-color);
+}
+/* 
+.container {
+  width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: solid olivedrab;
+}
+ */
+.header{ 
+  
 }
 /*-------------- Шапка сайта------------*/
 .logo {
@@ -89,6 +119,7 @@ color: #ffffff;
     }
 
     .hero-button {
+      font-family: "Roboto", sans-serif;
       font-weight: 700;
       font-size: 16px;
       line-height: 1.88;
@@ -194,19 +225,25 @@ font-style: normal;
 
 /*--------------Портфолио Наввинатор------------*/
 .nav-button {
+  font-family: 'Roboto';
+  font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
+cursor: pointer; 
 }
 .nav-button1 {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--primeri-wite-color);
   background-color: var(--accent-text-color);
+  cursor: pointer; 
   }
 .nav-button:hover,
 .nav-button:focus{
